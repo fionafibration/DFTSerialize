@@ -1,11 +1,11 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md", encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="dftserialize",
-    version="0.1.0",
+    version="0.1.2",
     author="Finian Blackett",
     author_email="spamsuckersunited@gmail.com",
     description="A next-gen Python object serialization suite using the Discrete Fourier Transform",
