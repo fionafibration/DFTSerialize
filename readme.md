@@ -105,7 +105,7 @@ a series of complex coefficients.
  DFTSerialize™ is released under the GNU GPL v3 License. Please refer to the LICENSE file that 
  accompanies this project for more information including complete terms and conditions.
  
- ## Serious Note
+## Serious Note
  
  This project is a complete and utter joke and should never, ever be used for anything. 
  In fact, I *challenge* you to find an actual use for this software. Actually, I *double challenge*
