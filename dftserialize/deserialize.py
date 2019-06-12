@@ -33,7 +33,7 @@ def chudnovsky_pi_summation(n):
     pi = Dec(0)
     for k in range(n):
         pi += (Dec(-1) ** k) * (Dec(factorial(6 * k)) / ((factorial(k) ** 3) * (factorial(3 * k))) * (13591409 + 545140134 * k) / (640320 ** (3 * k)))
-    pi = pi * Dec(10005).sqrt() / 4270934400
+    pi = pi * Dec(10005 ** 0.5) / 4270934400
 
     return float(pi ** (-1))
 
