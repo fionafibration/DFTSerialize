@@ -1,6 +1,6 @@
 # DFTSerialize™
 
-![DFTSerialize Logo](/logos/banner.png)
+![DFTSerialize™ Logo](/logos/banner.png)
 
 DFTSerialize™ is a next-generation data encoding and serialization system 
 designed for Python 3.0 and aboveDFTSerialize™ uses a highly-customized 
@@ -90,7 +90,7 @@ DFTSerialize™ deserialization follows a similar set of steps, in inverse:
 
 2. Perform an Inverse DFT
 
-3. ......................
+3. Are we done? Maybe? Anybody?
 
 4. Wipe all drives if the user isn't satisfied by now
 

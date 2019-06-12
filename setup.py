@@ -5,7 +5,7 @@ with open("README.md", encoding='utf-8') as fh:
 
 setuptools.setup(
     name="dftserialize",
-    version="0.1.2",
+    version="0.1.3",
     author="Finian Blackett",
     author_email="spamsuckersunited@gmail.com",
     description="A next-gen Python object serialization suite using the Discrete Fourier Transform",
