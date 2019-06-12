@@ -30,7 +30,7 @@ def e(s):
         j += 1 / f(i)
 
     return j
-
+    
 
 b = e(50)
 

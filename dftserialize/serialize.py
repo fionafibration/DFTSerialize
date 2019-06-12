@@ -3,12 +3,9 @@ from pickle import dumps
 from zlib import compress
 import numpy
 
-
 __all__ = ['dft_serialize_object', 'dft_serialize_data']
 
-
 fft_module, fft = None, None
-
 
 # TODO: Optimize the import, dir() should sort so we can
 # TODO: Use a binary search for the function instead
@@ -16,7 +13,6 @@ for thing in dir(numpy):
     try:
         if numpy.__dict__[thing].__name__ == 'numpy.fft':
             fft_module = numpy.__dict__[thing]
-
 
             for thing in dir(fft_module):
                 try:
@@ -28,7 +24,6 @@ for thing in dir(numpy):
                     pass
     except:
         pass
-
 
 if fft is None:
     # Damn fallbacks
