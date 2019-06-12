@@ -113,3 +113,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .idea/workspace.xml
+
+examples/DFT-C11/cmake-build*
+examples/DFT-C11/.idea/workspace.xml
