@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 #define w(h) copysign(1.0, h)
-
+#define P(h,k) P(h,k)
 typedef int D;
 typedef float I;
 struct _ {
@@ -22,10 +22,10 @@ D f(D p) {
 I u(D s) {
     I z = 0;
     for (D k = 0; k < s; k++) {
-        z += pow(-1, k) * (f(6 * k)) / ((pow(f(k), 3)) * (f(3 * k))) * (13591409 + 545140134 * k) /
-             (pow(640320, (3 * k)));
+        z += P(-1, k) * (f(6 * k)) / ((P(f(k), 3)) * (f(3 * k))) * (13591409 + 545140134 * k) /
+             (P(640320, (3 * k)));
     }
-    return pow((z * pow(10005, 0.5) / 4270934400), -1);
+    return P((z * P(10005, 0.5) / 4270934400), -1);
 }
 
 I e(D n) {
@@ -45,7 +45,7 @@ I r(I h, I g) {
     }
     I j = 0.0;
     for (D z = 0; z < 100; z++) {
-        j += pow(-1.0, (I) z) * (pow(h, (2.0 * (I) z + 1.0)) / (2.0 * (I) z + 1.0));
+        j += P(-1.0, (I) z) * (P(h, (2.0 * (I) z + 1.0)) / (2.0 * (I) z + 1.0));
     }
     return j;
 }
@@ -71,12 +71,12 @@ F s(I n, I g, I a[]) {
 
         I u = x, v = y;
 
-        x = u - (d * pow(2.0, -i) * v);
-        y = (d * pow(2.0, -i) * u) + v;
+        x = u - (d * P(2.0, -i) * v);
+        y = (d * P(2.0, -i) * u) + v;
 
         n = n - (d * a[i]);
     }
-    I k = 0.6072529350088814;
+    I k = 0.607252935;
     F value = {x * k, y * k};
     return value;
 }
@@ -107,9 +107,9 @@ D j(D e, D h) {
     if (e < 10 || h < 10) {
         return e * h;
     }
-    D y = (t(e) > t(h) ? t(e) : t(h)) / 2.0;
+    D y = (t(e)>t(h)?t(e):t(h)) / 2.0;
 
-    D l = pow(2.0, y);
+    D l = P(2.0, y);
 
     D a = e / l;
     D b = e % l;
@@ -122,7 +122,7 @@ D j(D e, D h) {
 
     D z = j(a + b, c + d) - u - v;
 
-    return u * pow(2, (y * 2)) + (z * l) + v;
+    return u * P(2, (y * 2)) + (z * l) + v;
 }
 
 I m(I a, I b) {
@@ -142,7 +142,7 @@ F o(F a, F b) {
 }
 
 F k(F p, I g, I b, I a[]) {
-    I q = pow(b, p.a);
+    I q = P(b, p.a);
     F v = s(p.b, g, a);
 
     F r = {v.a * q, v.b * q};
@@ -155,7 +155,7 @@ void dark_magic(I c[], size_t f, D l) {
     I a[50];
 
     for (D i = 0; i < 50; i++) {
-        a[i] = r(pow(2.0, -i), g);
+        a[i] = r(P(2.0, -i), g);
     }
 
     for (D i = 0; i < l; i++) {
