@@ -60,7 +60,7 @@ def s(n):
 
     x, y = 1, 0
 
-    for i in range(0, 30):
+    for i in range(30):
         d = 1.0 * w(n)
 
         u, v = x, y

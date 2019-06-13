@@ -189,7 +189,8 @@ def minify_source(orig_source, args=None):
 
     minified = ""
     if keep_newlines is True:
-        minified = args.newline.join(lines)
+        minified = re.sub('\n{2,}', '\n', args.newline.join(lines))
+        #minified = args.newline.join(lines)
     else:
         minified = ''.join(lines)
 
@@ -253,8 +254,7 @@ def process_files(args):
     for filename in glob.glob(args.directory + '/*.c'):
         if os.path.split(filename)[1].startswith('golfed'):
             continue
-        orig_source_code = ""
-        newline = None  # would use \n by default
+        newline = '\n'  # would use \n by default
         # No matter the original newline character used (LF, CRLF...), python
         # will always use \n in code. But when outputting the minified
         # source, we need to know which newline character was used, and
@@ -262,7 +262,7 @@ def process_files(args):
         # cf. https://docs.python.org/2/library/functions.html#open
         with open(filename, 'r') as f:
             orig_source_code = f.read()
-            newline = f.newlines
+            #newline = f.newlines
 
         if type(newline) is tuple:
             print(

@@ -94,7 +94,7 @@ def cordics_algorithm(beta):
     x, y = 1, 0
 
     # Run our step
-    for i in range(0, 200):
+    for i in range(200):
         # sign() function workaround
         d = copysign(1.0, beta)
 
