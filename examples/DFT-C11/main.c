@@ -3,6 +3,7 @@
 #include <stdlib.h>
 
 #define w(h) copysign(1.0, h)
+
 typedef int D;
 typedef float I;
 struct _ {

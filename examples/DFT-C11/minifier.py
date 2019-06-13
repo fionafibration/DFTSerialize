@@ -189,14 +189,15 @@ def minify_source(orig_source, args=None):
 
     minified = ""
     if keep_newlines is True:
-        minified = re.sub('\n{2,}', '\n', args.newline.join(lines))
-        #minified = args.newline.join(lines)
+        minified = args.newline.join(lines)
     else:
         minified = ''.join(lines)
 
     # There is no syntactic requirement of an operator being spaced from a '{' in C so
     # if we added unnecessary space when processing spaced ops, we can fix it here
     minified = fix_spaced_ops(minified)
+
+    minified = re.sub('[\n\r]{2,}', '\n', minified)
 
     return minified
 
