@@ -1,6 +1,6 @@
 # DFTSerialize™
 
-![DFTSerialize™ Logo](/logos/banner.png)
+![DFTSerialize™ Logo](/images/banner.png)
 
 DFTSerialize™ is a next-generation data encoding and serialization system 
 designed for Python 3.0 and aboveDFTSerialize™ uses a highly-customized 
