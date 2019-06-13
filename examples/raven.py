@@ -343,18 +343,3 @@ c, l = [35474.0, 0.0,
         -2012.5213556620856, -9916.056213934444], 213
 
 dark_magic()
-
-
-def generate_dft_array(data: bytes):
-    from numpy.fft import fft
-    from pprint import pformat
-
-    array = fft(list(data))
-
-    array = [(x.real, x.imag) for x in array]
-
-    array = [item for sublist in array for item in sublist]
-
-    print("c, l = %s, %s" % (pformat(array), len(data)))
-
-    return array, len(data)
