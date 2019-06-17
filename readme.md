@@ -10,11 +10,11 @@ algorithm that encodes any and all (most) Python data structures as bytes, and c
 
 ## Features
 
-* Snappy and efficient encoding of most Python objects and raw binary data
-* Equally efficient decoding of the output to recover original Python objects or binary data
-* Uses a *BUNCH* of fancy math and has its own reimplementation of many standard library functions 
+* 🚀 Snappy and efficient encoding of most Python objects and raw binary data
+* 💡 Equally efficient decoding of the output to recover original Python objects or binary data
+* 📝 Uses a *BUNCH* of fancy math and has its own reimplementation of many standard library functions 
 for maximum effectiveness
-* Has a really cool logo
+* 😜 Has a really cool logo
 
 ## Why
 
