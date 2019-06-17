@@ -1,23 +1,29 @@
-#include<stdio.h>#include<math.h>#include<stdlib.h>#define#w(h)copysign(1,h)#define#R#return#define#P#pow#define#T#typedef#######
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                 .://+/:.                                               -ys-                                          `/ho`
+                                :dmmmmmmd/                                             +dmmds-                                      `/hmmmh-
+                                smmmmmmmmy                                           `smmmmmmds`                                   -hdmmmmmd/
+                                smmmmmmmmy                                          `smmmmmmmd/                                    `smmmmmmmd/
+                                -hmmmmmmh-                                          smmmmmmmm/                                      `ymmmmmmmd:
+                                 `.-::-.`#                                         +mmmmmmmmo                                        `hmmmmmmmd.
+        .-:/++++//:-`                           `::::::`#      .-//:-`            .dmmmmmmmh`      `::::::::-         `::::::::-      :mmmmmmmmy
+     -+yhdmmmmmmmmmdhy/.        .ssssssss.      -mmmmmmy`  .:+yhdmmmdhs:`         ymmmmmmmm:       `+dmmmmmmd+       `ymmmmmmmh-       smmmmmmmm/
+   -ydmmmmmmmmmmmmmmmmmh/       -mmmmmmmm-      -mmmmmmmsoydmmmmmmmmmmmmh:       -mmmmmmmmy          :dmmmmmmmo`    .hmmmmmmmy.        .dmmmmmmmh`
+  -dmmmmmmmmmdddmmmmmmmmd/      -mmmmmmmm-      -mmmmmmmmmmmmmmmmmmmmmmmmd:      smmmmmmmm/           -hmmmmmmms`  -hmmmmmmmo`          ymmmmmmmm:
+  ymmmmmmmy/-...-+dmmmmmmd      -mmmmmmmm-      -mmmmmmmmmmmmdysyhmmmmmmmmh      dmmmmmmmm`            .ymmmmmmmy.-dmmmmmmd+            /mmmmmmmms
+  mmmmmmmm-       +mmmmmmm.     -mmmmmmmm-      -mmmmmmmmhs+-.`  `ommmmmmmm.    .mmmmmmmmh              `ommmmmmmhdmmmmmmd:             .mmmmmmmmh
+  hmmmmmmmo..``   `///////`     -mmmmmmmm-      -mmmmmmmm-        .mmmmmmmm-    :mmmmmmmmy                /dmmmmmmmmmmmmh-              `mmmmmmmmm
+  /mmmmmmmmdhhyyso+/-.`         -mmmmmmmm-      -mmmmmmmm-        `mmmmmmmm-    :mmmmmmmmy                 :hmmmmmmmmmms`               `mmmmmmmmm
+   odmmmmmmmmmmmmmmmmdy/`       -mmmmmmmm-      -mmmmmmmm-        `mmmmmmmm-    -mmmmmmmmy                  .hmmmmmmmmo`                `mmmmmmmmd
+    -shdmmmmmmmmmmmmmmmmh-      -mmmmmmmm-      -mmmmmmmm-        `mmmmmmmm-    `mmmmmmmmd                  -dmmmmmmmms`                :mmmmmmmmy
+      `-:/+osyhhdmmmmmmmmd`     -mmmmmmmm-      -mmmmmmmm-        `mmmmmmmm-     hmmmmmmmm-                /dmmmmmmmmmmy.               ommmmmmmm+
+ `.......     ``./dmmmmmmm+     -mmmmmmmm-      -mmmmmmmm-        `mmmmmmmm-     +mmmmmmmms              `ommmmmmmmmmmmmh-             `dmmmmmmmd.
+ oddddddd.        ommmmmmms     -mmmmmmmm-      -mmmmmmmm-        `mmmmmmmm-     `dmmmmmmmd.            `smmmmmmmydmmmmmmd:            +mmmmmmmms
+ +mmmmmmms.``  ``.ymmmmmmmo     -mmmmmmmm-      -mmmmmmmm-        `mmmmmmmm-      /mmmmmmmms           .hmmmmmmmy`-dmmmmmmd+          .dmmmmmmmd.
+ .dmmmmmmmdhyysyydmmmmmmmd.     -mmmmmmmm-      -mmmmmmmm-        `mmmmmmmm-       smmmmmmmm/         :dmmmmmmms`  .hmmmmmmmo`        smmmmmmmm/
+  -hmmmmmmmmmmmmmmmmmmmdy-      -mmmmmmmm-      -mmmmmmmm-        `mmmmmmmm-       `hmmmmmmmd-       +dmmmmmmms`    .hmmmmmmmy`      +mmmmmmmmo
+   `/yddmmmmmmmmmmmmdds:`       -mmmmmmmm-      -mmmmmmmm-        `mmmmmmmm-        .hmmmmmmmd-    `ommmmmmmms`      `ymmmmmmmh-    +mmmmmmmms
+      `-:++ossssso+:-`          `////////`      `////////`        `////////.         .hmmmmmmdy`   -+++++++//`        `/////+++/   -dmmmmmmdo
+                                                                                      `sdmmmh:                                      `+dmmmd/
+                                                                                        :hh:                                          `+ds.
+                                                                                         `                                              `
 
-                                                                 ,#((((((((((((##                                                                       *#((((((
-                                                              ,#((((((((((((((((((##                                                                 /#(((((((((
-(                                                           ##(((((((((((((((((((((((#,                                                            #((((((((((((
-(/(                                                       #((((((((((((((((((((((((((((#,                                                        #((((((((((((((
-(((#                                                    #((((((((((((((((((((((((((((((((#(#                                                   #((((((((((((((((
-((((((                                                #((((((((((((((((((((((((((((((((((((#/                                                #((((((((((((((((((
-((((((#/                                            #((((((((((((((((((((((((((((((((((((((((#,                                            #((((((((((((((((((((
-(((((((((*                                        (((((((((((((((((((((((((((((((((((((((((((((#.                                        #((((((((((((((((((((((
-((((((((((#,                                    /#(((((((((((((((((((((((((((((((((((((((((((((((#                                     #((((((((((((((((((((((((
-((((((((((((#.                                *#(((((((((((((((((((((((((((((((((((((((((((((((((((#                                 (#(((((((((((((((((((((((((
-((((((((((((((#                             /#(((((((((((((((((((((((((((((((((((((((((((((((((((((((#                             (#(((((((((((((((((((((((((((
-((((((((((((((((#*#                       ##(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((#,                        #((((((((((((((((((((((((((((((
-(((((((((((((((((((#                   ,#((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((##                   *#((((((((((((((((((((((((((((((((
-((((((((((((((((((((((#.            ,#((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((##             /#(((((((((((((((((((((((((((((((((((
-((((((((((((((((((((((((((###*/##((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((###*(##((((((((((((((((((((((((((((((((((((((((
-((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
-((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
-((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
-((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
-((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
-((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
