@@ -1,4 +1,5 @@
 # DFTSerialize™
+![PyPi](https://img.shields.io/pypi/v/dftserialize.svg?color=%2300dd00&style=popout) ![Python Version](https://img.shields.io/pypi/pyversions/django.svg?style=popout) ![Rating](https://img.shields.io/badge/rating-5.0%2F5.0-%2300dd00.svg) ![License](https://img.shields.io/pypi/l/dftserialize.svg?style=popout)
 
 ![DFTSerialize™ Logo](/images/banner.png)
 
@@ -9,11 +10,11 @@ algorithm that encodes any and all (most) Python data structures as bytes, and c
 
 ## Features
 
-* Snappy and efficient encoding of most Python objects and raw binary data
-* Equally efficient decoding of the output to recover original Python objects or binary data
-* Uses a *BUNCH* of fancy math and has its own reimplementation of many standard library functions 
+* 🚀 Snappy and efficient encoding of most Python objects and raw binary data
+* 💡 Equally efficient decoding of the output to recover original Python objects or binary data
+* 📝 Uses a *BUNCH* of fancy math and has its own reimplementation of many standard library functions 
 for maximum effectiveness
-* Has a really cool logo
+* 😜 Has a really cool logo
 
 ## Why
 
