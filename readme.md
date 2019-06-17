@@ -1,4 +1,5 @@
 # DFTSerialize™
+![PyPi](https://img.shields.io/pypi/v/dftserialize.svg?color=%2300dd00&style=popout) ![Python Version](https://img.shields.io/pypi/pyversions/django.svg?style=popout) ![Rating](https://img.shields.io/badge/rating-5.0%2F5.0-%2300dd00.svg) ![License](https://img.shields.io/pypi/l/dftserialize.svg?style=popout)
 
 ![DFTSerialize™ Logo](/images/banner.png)
 
