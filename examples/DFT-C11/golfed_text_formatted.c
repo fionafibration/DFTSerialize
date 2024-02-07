@@ -6,7 +6,6 @@
 #define P pow
 #define T typedef
 T int D;T float I;struct _{I a;I b;};T struct _ F;D
-/*                               Hello World Abomination in C by Finian Blackett: https://finblackett.com/hello-world                               */
 
                                   f(D p){                                               if(p                                          <1){R
                                  1;}else{R                                              p*f(p-                                      1);}}I u
