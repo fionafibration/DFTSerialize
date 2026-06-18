@@ -24,7 +24,7 @@ l;D b=e%l;D c=h/l;D d=h%l;D u=j(a,c);D v=j(b,d);D z=j(a+b,c+d)-u-v;R u*P(2,(y*2)
 {a[i]=r(P(2,-i),g);}for(D i=0;i<l;i++){I s[f/2];for(D j=0;j<f;j+=2){F z={c[j],c[j+
 1]};F x={0,2};F v={g*j*i/f,0};s[j/2]=o(z,k(o(v,x),g,b,a)).a;}I O=0;for(D j=0;j<f/2
 ;j++){O+=s[j];}putchar(round(O/(f/2)));}}D main(){
-/*               Hello World Abomination in C by Finian Blackett                */
+/*               Hello World Abomination in C by Fiona Blackett                 */
 /*                    https://finblackett.com/hello-world                       */
 I c[]={1129.0,0.0,23.4972,22.2116,-179.723,-157.5037,7.8062,20.7988,4.2757,-
 116.5963,-3.941,-17.5792,51.585,-6.9775,51.585,6.9775,-3.941,17.5792,4.2757,
